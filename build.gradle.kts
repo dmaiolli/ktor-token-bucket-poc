@@ -39,6 +39,9 @@ dependencies {
     // Testing
     testImplementation(kotlin("test"))
     testImplementation("io.ktor:ktor-server-test-host:2.3.7")
+
+    // TokenBucket
+    implementation("com.bucket4j:bucket4j-core:8.7.0")
 }
 
 application {
@@ -46,7 +49,7 @@ application {
 }
 
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(21)
 }
 
 tasks.test {

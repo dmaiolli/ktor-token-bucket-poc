@@ -166,10 +166,4 @@ class TokenBucketRateLimiter(
     }
 }
 
-/**
- * Exceção lançada quando o rate limit é excedido.
- */
-class RateLimitExceededException(
-    message: String,
-    val retryAfter: Long
-) : Exception(message)
+
