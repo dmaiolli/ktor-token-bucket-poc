@@ -92,7 +92,7 @@ ktor-token-bucket-poc/
 
 ### Pré-requisitos
 
-- Java 17 ou superior
+- Java 21 ou superior
 - Gradle (ou use o wrapper incluído)
 
 ### 1. Compilar e Executar
